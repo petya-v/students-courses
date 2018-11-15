@@ -1,0 +1,23 @@
+<p class="h2">Add Student</p>
+<div>
+  <div class="form-group">
+    <label class="col-form-label">Name:</label>
+    <input type="text" class="form-control"  placeholder="Enter name" [(ngModel)]="viewModel.name">
+  </div>
+  <div class="form-group">
+    <label>Surname:</label>
+    <input type="text" class="form-control" placeholder="Enter surname" [(ngModel)]="viewModel.surname">
+  </div>
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-5">
+      <button type="button" class="btn btn-primary btn-sm btn-block" (click)="addStudent()" routerLink="/students">
+        Add
+      </button>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-secondary btn-sm" routerLink="/students" routerLinkActive="active">Cancel</button>
+    </div>
+  </div>
+</div>

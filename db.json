@@ -1,0 +1,108 @@
+{
+  "students": [
+    {
+      "name": "Jason",
+      "surname": "Code",
+      "id": 1
+    },
+    {
+      "name": "Will",
+      "surname": "Face",
+      "id": 5
+    },
+    {
+      "name": "No",
+      "surname": "Bug",
+      "id": 6
+    },
+    {
+      "name": "Banana",
+      "surname": "King",
+      "id": 7
+    },
+    {
+      "name": "Nicki",
+      "surname": "Minaj",
+      "id": 8
+    },
+    {
+      "name": "Petya",
+      "surname": "Voynishka",
+      "id": 9
+    },
+    {
+      "name": "Java",
+      "surname": "Master",
+      "id": 10
+    },
+    {
+      "name": "AAAA",
+      "surname": "BBBB",
+      "id": 11
+    },
+    {
+      "name": "P",
+      "surname": "J",
+      "id": 12
+    },
+    {
+      "name": "Pit",
+      "surname": "Bull",
+      "id": 13
+    },
+    {
+      "name": "Feodora",
+      "surname": "Boyanovska",
+      "id": 14
+    }
+  ],
+  "courses": [
+    {
+      "name": "Angular",
+      "maxNbrStudents": 3,
+      "id": 1
+    },
+    {
+      "name": "Cooking",
+      "maxNbrStudents": 5,
+      "id": 2
+    },
+    {
+      "name": "Java",
+      "maxNbrStudents": 5,
+      "id": 3
+    }
+  ],
+  "courseAssignments": [
+    {
+      "courseId": "1",
+      "studentId": "1",
+      "id": 1
+    },
+    {
+      "courseId": "2",
+      "studentId": "9",
+      "id": 2
+    },
+    {
+      "courseId": "2",
+      "studentId": "6",
+      "id": 3
+    },
+    {
+      "courseId": "2",
+      "studentId": "5",
+      "id": 4
+    },
+    {
+      "courseId": "3",
+      "studentId": "14",
+      "id": 5
+    },
+    {
+      "courseId": "2",
+      "studentId": "7",
+      "id": 6
+    }
+  ]
+}

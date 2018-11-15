@@ -1,0 +1,6 @@
+<select class="custom-select" ngModel (change)="onCourseChange($event.target.value)">
+  <option selected>Select course</option>
+  <option *ngFor="let course of courseList$ | async" [value]="course.id">
+    {{course.name}}
+  </option>
+</select>

@@ -1,0 +1,5 @@
+<div class="row">
+  <app-search-result-item class="m-4"
+    *ngFor="let result of resultsList$ | async" [searchItem]="result">
+  </app-search-result-item>
+</div>
